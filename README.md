@@ -43,10 +43,6 @@ If your library is called `my-new-library`, you can start working on it like so:
     # With zsh you have to run this again for some reason:
     source venv/bin/activate
 
-You should see the following:
-
-    my-new-library, version 0.1
-
 You can run the default test for your library like so:
 
     pytest
