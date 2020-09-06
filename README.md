@@ -14,7 +14,7 @@ Regular `pip` will work OK too.
 
 Run `cookiecutter gh:simonw/python-lib` and then answer the prompts. Here's an example run:
 
-    $ cookiecutter gh:simonw/click-app
+    $ cookiecutter gh:simonw/python-lib
     lib_name []: python lib template demo
     description []: Demonstrating https://github.com/simonw/python-lib
     hyphenated [python-lib-template-demo]: 

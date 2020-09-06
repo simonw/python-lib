@@ -1,5 +1,5 @@
-click app template demo
-Demonstrating https://github.com/simonw/click-app
+python lib template demo
+Demonstrating https://github.com/simonw/python-lib
 
 
 simonw
