@@ -30,4 +30,5 @@ setup(
     install_requires=[],
     extras_require={"test": ["pytest"]},
     tests_require=["{{ cookiecutter.hyphenated }}[test]"],
+    python_requires=">=3.6",
 )
