@@ -24,10 +24,6 @@ To contribute to this library, first checkout the code. Then create a new virtua
     python -mvenv venv
     source venv/bin/activate
 
-Or if you are using `pipenv`:
-
-    pipenv shell
-
 Now install the dependencies and test dependencies:
 
     pip install -e '.[test]'
