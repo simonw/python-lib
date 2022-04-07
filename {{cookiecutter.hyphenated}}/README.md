@@ -10,7 +10,7 @@
 
 Install this library using `pip`:
 
-    $ pip install {{ cookiecutter.hyphenated }}
+    pip install {{ cookiecutter.hyphenated }}
 
 ## Usage
 
