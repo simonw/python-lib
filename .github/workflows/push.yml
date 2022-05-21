@@ -10,20 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout python-lib
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         path: main
     - name: Checkout python-lib-template-demo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         repository: simonw/python-lib-template-demo
         path: python-lib-template-demo-current
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_PUSH }}
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: 3.8
-    - uses: actions/cache@v2
+    - uses: actions/cache@v3
       name: Configure pip caching
       with:
         path: ~/.cache/pip
