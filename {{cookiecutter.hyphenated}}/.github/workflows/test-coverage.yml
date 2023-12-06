@@ -1,4 +1,4 @@
-name: Calculate test coverage
+name: Calculate Test Coverage
 {% raw %}
 on:
   push:
