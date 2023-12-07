@@ -33,5 +33,5 @@ setup(
     packages=["{{ cookiecutter.underscored }}"],
     install_requires=[ "click", "setuptools", "pip"],
     extras_require={"test": ["pytest", "pytest-cov", "black", "ruff", "click"]},
-    python_requires=">=3.7",
+    python_requires=">=3.7"
 )
