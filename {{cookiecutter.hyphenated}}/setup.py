@@ -31,7 +31,7 @@ setup(
     license="Apache License, Version 2.0",
     version=VERSION,
     packages=["{{ cookiecutter.underscored }}"],
-    install_requires=[],
-    extras_require={"test": ["pytest"]},
+    install_requires=[ "click", "setuptools", "pip"],
+    extras_require={"test": ["pytest", "pytest-cov", "black", "ruff", "click"]},
     python_requires=">=3.7",
 )
