@@ -1,8 +1,19 @@
 {
   "lib_name": "",
   "description": "",
-  "hyphenated": "{{ '-'.join(cookiecutter['lib_name'].lower().split()).replace('_', '-') }}",
+  "logo_img_url": "",
+  "hyphenated": "{{ '-'.join(cookiecutter.lib_name.lower().split()).replace('_', '-') }}",
   "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
-  "github_username": "",
-  "author_name": ""
+  "github_username": "Florents-Tselai",
+  "github_repo": "{{ cookiecutter.hyphenated }}",
+  "author_name": "Florents Tselai",
+  "author_email": "florents@tselai.com",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
 }
