@@ -22,7 +22,7 @@
 <a href="https://pypi.org/project/{{ cookiecutter.hyphenated }}/"><img src="https://img.shields.io/pypi/v/{{ cookiecutter.hyphenated }}?label=PyPI"></a>
 <a href="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/actions/workflows/test.yml?branch=mainline"><img src="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/actions/workflows/test.yml/badge.svg"></a>
 <a href="https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}"><img src="https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/branch/main/graph/badge.svg"></a>  
-<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+<a href="https://opensource.org/licenses/{{cookiecutter.open_source_license}}"><img src="https://img.shields.io/badge/{{cookiecutter.open_source_license}}.0-blue.svg"></a>
 <a href="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/releases"><img src="https://img.shields.io/github/v/release/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}?include_prereleases&label=changelog"></a>
 
 ## Status
