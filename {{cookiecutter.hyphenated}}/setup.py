@@ -19,6 +19,10 @@ setup(
     long_description_content_type="text/markdown",{% if cookiecutter.author_name %}
     author="{{ cookiecutter.author_name }}",{% endif %}{% if cookiecutter.github_username %}
     url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated }}",
+    entry_points="""
+        [console_scripts]
+        {{ cookiecutter.hyphenated }}={{ cookiecutter.hyphenated }}.cli:cli
+    """,
     project_urls={
         "Issues": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated }}/issues",
         "CI": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated }}/actions",
