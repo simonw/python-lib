@@ -40,3 +40,10 @@
 pip install {{ cookiecutter.hyphenated }}
 ```
 
+### Development
+
+```bash
+pip install -e '.[test]'
+pytest
+```
+
