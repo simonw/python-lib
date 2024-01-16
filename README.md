@@ -92,3 +92,10 @@ Once you have created your account, navigate to https://pypi.org/manage/account/
 Now, any time you create a new "Release" on GitHub the Action will build your package and push it to PyPI.
 
 The tag for your release needs to match the `VERSION` string at the top of your `pyproject.toml` file. You should bump this version any time you release a new version of your package.
+
+## Notes on updating this cookiecutter template
+
+Updating this cookiecutter template while keeping the [python-lib-template-repository](https://github.com/simonw/python-lib-template-repository) template repository working is a little bit complicated. Detailed notes in [issue #6](https://github.com/simonw/python-lib/issues/6), but the short version is:
+
+1. Any changes to the `{{cookiecutter.hyphenated}}/.github/workflows/*.yml` files need to be manually pushed to the [python-lib-template-repository-demo](https://github.com/simonw/python-lib-template-repository-demo) repository, because GitHub Actions cannot update their own workflows.
+2. Generated final versions of those workflows then need to be copied to [python-lib-template-repository .github/workflows](https://github.com/simonw/python-lib-template-repository/tree/main/.github/workflows) for the same reason.
