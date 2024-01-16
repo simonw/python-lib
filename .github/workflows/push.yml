@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout python-lib
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         path: main
     - name: Checkout python-lib-template-demo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: simonw/python-lib-template-demo
         path: python-lib-template-demo-current
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_PUSH }}
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: "3.11"
         cache: pip
