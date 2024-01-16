@@ -10,9 +10,9 @@
 ## Installation
 
 Install this library using `pip`:
-
-    pip install {{ cookiecutter.hyphenated }}
-
+```bash
+pip install {{ cookiecutter.hyphenated }}
+```
 ## Usage
 
 Usage instructions go here.
@@ -20,15 +20,16 @@ Usage instructions go here.
 ## Development
 
 To contribute to this library, first checkout the code. Then create a new virtual environment:
-
-    cd {{ cookiecutter.hyphenated }}
-    python -m venv venv
-    source venv/bin/activate
-
+```bash
+cd {{ cookiecutter.hyphenated }}
+python -m venv venv
+source venv/bin/activate
+```
 Now install the dependencies and test dependencies:
-
-    pip install -e '.[test]'
-
+```bash
+pip install -e '.[test]'
+```
 To run the tests:
-
-    pytest
+```bash
+pytest
+```
