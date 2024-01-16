@@ -97,5 +97,5 @@ The tag for your release needs to match the `VERSION` string at the top of your 
 
 Updating this cookiecutter template while keeping the [python-lib-template-repository](https://github.com/simonw/python-lib-template-repository) template repository working is a little bit complicated. Detailed notes in [issue #6](https://github.com/simonw/python-lib/issues/6), but the short version is:
 
-1. Any changes to the `{{cookiecutter.hyphenated}}/.github/workflows/*.yml` files need to be manually pushed to the [python-lib-template-repository-demo](https://github.com/simonw/python-lib-template-repository-demo) repository, because GitHub Actions cannot update their own workflows.
+1. Any changes to the `{{cookiecutter.hyphenated}}/.github/workflows/*.yml` files need to be manually pushed to the [python-lib-template-demo](https://github.com/simonw/python-lib-template-demo) repository, because GitHub Actions cannot update their own workflows.
 2. Generated final versions of those workflows then need to be copied to [python-lib-template-repository .github/workflows](https://github.com/simonw/python-lib-template-repository/tree/main/.github/workflows) for the same reason.
