@@ -6,9 +6,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 authors = [{name = "{{ cookiecutter.author_name }}"}]
 license = "Apache-2.0"
-classifiers = [
-    "License :: OSI Approved :: Apache Software License"
-]
+classifiers = []
 dependencies = [
 
 ]
