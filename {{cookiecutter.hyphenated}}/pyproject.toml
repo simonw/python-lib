@@ -3,7 +3,7 @@ name = "{{ cookiecutter.hyphenated }}"
 version = "0.1"
 description = "{{ cookiecutter.description or "" }}"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 authors = [{name = "{{ cookiecutter.author_name }}"}]
 license = "Apache-2.0"
 classifiers = []
