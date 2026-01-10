@@ -39,17 +39,8 @@ Having created the new structure from the template, here's how to start working 
 If your library is called `my-new-library`, you can start working on it like so:
 ```bash
 cd my-new-library
-# Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate
-# Install dependencies so you can edit the project:
-python -m pip install -e '.[test]'
-# With zsh you have to run this again for some reason:
-source venv/bin/activate
-```
-You can run the default test for your library like so:
-```bash
-python -m pytest
+# Run the tests
+uv run pytest
 ```
 This will execute the test in `tests/test_my_new_library.py`.
 
