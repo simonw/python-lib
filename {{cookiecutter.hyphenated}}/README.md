@@ -19,17 +19,17 @@ Usage instructions go here.
 
 ## Development
 
-To contribute to this library, first checkout the code. Then create a new virtual environment:
+To contribute to this library, first checkout the code. Then run the tests with [uv](https://docs.astral.sh/uv/):
 ```bash
 cd {{ cookiecutter.hyphenated }}
+uv run pytest
+```
+This will create a virtual environment and install the package along with its development dependencies.
+
+If you prefer to use `pip` (version 25.1 or later), create a virtual environment and install the dependencies like this:
+```bash
 python -m venv venv
 source venv/bin/activate
-```
-Now install the dependencies and test dependencies:
-```bash
-python -m pip install -e '.[test]'
-```
-To run the tests:
-```bash
+python -m pip install -e . --group dev
 python -m pytest
 ```
